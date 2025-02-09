@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +7,7 @@
 }
 nav a {
     text-align: center;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -23,7 +26,11 @@ main section {
 }
 body {
     background-color: #f4f4f4;
-    color: #333; 
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -41,6 +48,8 @@ nav a:hover {
     color: #ffffff; 
     padding: 10px 20px;
     border-radius: 5px;
+    font-size: 18px;
+    padding: 15px 30px;
 }
 
 .book:hover, .join:hover {
@@ -56,6 +65,8 @@ nav a:hover {
     color: #333;
     padding: 15px;
     border-radius: 5px;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
@@ -72,8 +83,11 @@ nav a:hover {
     color: #ffdd44;
 }
 
-.home-title {
+.home-title,.msg h2  {
     color: #222222;
+    font-family:'Playfair Display', Georgia, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -82,6 +96,8 @@ h4 {
 
 .book, .join {
     color: #ffffff;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -90,14 +106,19 @@ h4 {
 
 .msg h2 {
     color: #333333;
+    margin: 0;
 }
 
 .msg p {
     color: #555555;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -113,11 +134,15 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
     height: auto;
+}
+#logo_link{
+    padding-top: 5px;
 }
 nav a {
     text-decoration: none;
@@ -126,12 +151,31 @@ nav a {
 .book, .join {
     text-decoration: none;
 }
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10pc;
+    color: solid black;
+}
+main section img {
+    box-sizing: border-box;
+}
 
 footer a {
     text-decoration: none;
 }
 footer p {
     font-size: 1.2em;
+}
+footer.social img{
+    padding-top: 15px;
 }
 
 footer p a:hover {
