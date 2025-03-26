@@ -235,4 +235,48 @@ footer {
   padding: 10px;
   background: #ddd;
 }
+.media-card {
+  max-width: 400px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.media-card img {
+  width: 100%;
+  height: auto;
+}
+
+.media-card-content {
+  padding: 15px;
+}
+
+.media-card h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #c62828;
+}
+
+.media-card p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #c62828;
+  color: #fff;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #a51313;
+}
 
